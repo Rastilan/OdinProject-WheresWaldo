@@ -1,11 +1,16 @@
 import './App.css';
 import React, { useState, useRef, useEffect } from 'react';
+import { }
+
+
 import zelda from "./image/ZeldaFind.png";
 import majoraIMG from "./image/majora.jpg";
 import miphaIMG from "./image/mipha.jpg";
 import moonIMG from "./image/moon.jpg";
 
 function App() {
+
+  const
 
   const [time, setTime] = useState(0);
   const [win, setWin] = useState(false);
@@ -15,6 +20,7 @@ function App() {
   const [moon, setMoon] = useState(false);
   const [majora, setMajora] = useState(false);
   const [mipha, setMipha] = useState(false);
+
 
 
   let secondsPassed = 0;
