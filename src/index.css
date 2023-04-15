@@ -5,9 +5,98 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: scroll;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav {
+  padding-top: 15px;
+  padding-bottom:15px;
+  width: 100%;
+  position:fixed;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.waldo {
+  padding-top: 55px;
+  z-index: 1;
+}
+
+.start-overlay {
+  display: flex;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  background-color: black;
+  justify-content: center;
+  flex-direction: column;
+
+  
+}
+
+.end-overlay {
+  display: flex;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  background-color: black;
+  justify-content: center;
+  flex-direction: column;
+
+  
+}
+
+#start-button {
+  height: 20px;
+  margin: 0 auto;
+}
+
+.objects {
+  display:flex;
+  flex-direction: column;
+  z-index: 1;
+  position: fixed;
+  top: 10em;
+  right: 1em;
+  padding: 20px;
+  background-color: black;
+}
+
+.found {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.foundMajora{
+  position:absolute;
+  left: 205px;
+  top: 2957px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: 3px solid red;
+}
+.foundMipha{
+  position:absolute;
+  left: 3846px;
+  top: 1465px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: 3px solid red;
+}
+.foundMoon{
+  position:absolute;
+  left: 8971px;
+  top: 60px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: 3px solid red;
 }
