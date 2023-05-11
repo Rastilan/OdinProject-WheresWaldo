@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/where-is-waldo/static/css/main.dd169494.css",
+    "main.js": "/where-is-waldo/static/js/main.31aff0ce.js",
+    "static/js/787.4ce2c4d5.chunk.js": "/where-is-waldo/static/js/787.4ce2c4d5.chunk.js",
+    "static/media/ZeldaFind.png": "/where-is-waldo/static/media/ZeldaFind.a5c90593d557e6e3e1c0.png",
+    "index.html": "/where-is-waldo/index.html",
+    "main.dd169494.css.map": "/where-is-waldo/static/css/main.dd169494.css.map",
+    "main.31aff0ce.js.map": "/where-is-waldo/static/js/main.31aff0ce.js.map",
+    "787.4ce2c4d5.chunk.js.map": "/where-is-waldo/static/js/787.4ce2c4d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd169494.css",
+    "static/js/main.31aff0ce.js"
+  ]
+}
