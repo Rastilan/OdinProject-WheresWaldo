@@ -1,0 +1,41 @@
+.leaderboard {
+  background-color: #000;
+  color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.score-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.score-index {
+  font-size: 24px;
+  padding: 5px;
+}
+
+.score-player {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.score-time {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  padding: 5px;
+}
+
+p {
+  margin-top: 20px;
+}

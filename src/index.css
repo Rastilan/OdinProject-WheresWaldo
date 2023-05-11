@@ -32,14 +32,15 @@ code {
 .start-overlay {
   display: flex;
   position: fixed;
+  top: 0;
+  left: 0;
   height: 100vh;
   width: 100vw;
   z-index: 2;
   background-color: black;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-
-  
 }
 
 .end-overlay {
@@ -60,15 +61,16 @@ code {
   margin: 0 auto;
 }
 
+
 .objects {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  z-index: 1;
   position: fixed;
   top: 10em;
   right: 1em;
   padding: 20px;
   background-color: black;
+  z-index: 1;
 }
 
 .found {
@@ -99,4 +101,18 @@ code {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   border: 3px solid red;
+}
+
+.leaderboard-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9999;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
